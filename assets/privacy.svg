@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="260" viewBox="0 0 500 260">
+  <rect width="500" height="260" fill="#f9f9f9"/>
+  <path d="M160 60 L240 90 L240 145 C240 185 210 210 160 225 C110 210 80 185 80 145 L80 90 Z" fill="#8db3d3" stroke="#1f4e79" stroke-width="4"/>
+  <rect x="135" y="110" width="50" height="40" rx="6" fill="#ffffff" stroke="#1f4e79" stroke-width="3"/>
+  <path d="M145 110 C145 95 155 85 170 85 C185 85 195 95 195 110" fill="none" stroke="#1f4e79" stroke-width="4"/>
+  <text x="285" y="120" font-family="Arial" font-size="24" fill="#1f4e79">Privacy Protection</text>
+  <text x="285" y="155" font-family="Arial" font-size="16" fill="#333">Users should understand data collection</text>
+</svg>

@@ -1,0 +1,87 @@
+/* IT 3203 Milestone 1 Stylesheet
+   Shared styles for all pages */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+nav {
+    background-color: #dbe7f3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #1f4e79;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h1, h2, h3 {
+    color: #1f4e79;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.table-box {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e7eef5;
+}
+
+.card-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 250px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
