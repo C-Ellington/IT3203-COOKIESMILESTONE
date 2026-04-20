@@ -1,0 +1,229 @@
+/*
+  IT 3203 Milestone 2 Stylesheet
+  This stylesheet is shared across all pages.
+  It shows three selector types required in class:
+  1) element selectors: body, nav, footer, table
+  2) class selectors: .card, .table-box, .quiz-option
+  3) id selectors: #toc, #key-terms, #quiz-results
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+header,
+nav,
+main,
+footer {
+    width: min(92%, 960px);
+    margin: 0 auto;
+}
+
+.site-header {
+    padding: 24px 0 10px;
+}
+
+.site-header h1 {
+    margin-bottom: 8px;
+}
+
+nav {
+    background-color: #dbe7f3;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #c7d7e6;
+    border-radius: 8px;
+}
+
+nav a {
+    color: #1f4e79;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 24px;
+    border: 1px solid #d6dde5;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+h1, h2, h3 {
+    color: #1f4e79;
+}
+
+p, li, dd {
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+#toc,
+#key-terms,
+.note-box {
+    background-color: #f7fbff;
+    border: 1px solid #d4e3ef;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.card-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 250px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 8px;
+}
+
+.table-box {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e7eef5;
+}
+
+footer {
+    margin: 0 auto 24px;
+    padding: 16px;
+    background-color: #eef4fa;
+    border: 1px solid #c7d7e6;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+.quiz-form fieldset {
+    border: 1px solid #c7d7e6;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 18px;
+}
+
+.quiz-form legend {
+    font-weight: bold;
+    color: #1f4e79;
+}
+
+.quiz-form label {
+    display: block;
+    margin: 8px 0;
+}
+
+.quiz-form input[type="text"] {
+    width: min(100%, 420px);
+    padding: 10px;
+    border: 1px solid #aebdcb;
+    border-radius: 6px;
+}
+
+.quiz-option {
+    padding: 4px 0;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #1f4e79;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #d9e2ec;
+    color: #102a43;
+}
+
+#quiz-results {
+    margin-top: 24px;
+    padding: 18px;
+    border: 1px solid #c7d7e6;
+    border-radius: 8px;
+    background-color: #fbfdff;
+}
+
+.hidden {
+    display: none;
+}
+
+.pass {
+    color: #166534;
+    font-weight: bold;
+}
+
+.fail {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+.correct {
+    color: #166534;
+}
+
+.incorrect {
+    color: #b91c1c;
+}
+
+.small-text {
+    font-size: 0.95rem;
+}

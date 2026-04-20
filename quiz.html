@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies and Privacy - Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Self-Assessment Quiz</h1>
+        <p>Use this quiz to check your understanding after reading the website pages.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="topic1.html">Cookie Types</a>
+        <a href="topic2.html">Privacy Risks</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a href="resources.html">Resources</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+        <section class="note-box">
+            <h2>Quiz Directions</h2>
+            <p>Answer all five questions, then select <strong>Submit Quiz</strong>. Your score, pass or fail result, and correct answers will appear on this page right away. Use <strong>Reset Quiz</strong> to clear the form and try again.</p>
+        </section>
+
+        <form id="quiz-form" class="quiz-form">
+            <fieldset>
+                <legend>Question 1: Fill in the blank</legend>
+                <label for="q1">A small file saved by a website in the browser is called a ________.</label>
+                <input type="text" id="q1" name="q1" placeholder="Type your answer here">
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 2: Multiple choice</legend>
+                <p>Which cookie type usually disappears when the browser closes?</p>
+                <label class="quiz-option"><input type="radio" name="q2" value="a"> Persistent cookie</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="b"> Session cookie</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="c"> Third-party cookie</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 3: Multiple choice</legend>
+                <p>Which type of cookie is most connected to ad tracking across websites?</p>
+                <label class="quiz-option"><input type="radio" name="q3" value="a"> Essential cookie</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="b"> Session cookie</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="c"> Third-party cookie</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 4: Multiple choice</legend>
+                <p>Why do websites use essential cookies?</p>
+                <label class="quiz-option"><input type="radio" name="q4" value="a"> To change a user&apos;s password</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="b"> To support basic site functions such as login and shopping carts</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="c"> To block all advertising forever</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 5: Multi-selection</legend>
+                <p>Which actions can help protect online privacy? Select all that apply.</p>
+                <label class="quiz-option"><input type="checkbox" name="q5" value="a"> Review browser cookie settings</label>
+                <label class="quiz-option"><input type="checkbox" name="q5" value="b"> Accept every pop-up without reading it</label>
+                <label class="quiz-option"><input type="checkbox" name="q5" value="c"> Read cookie consent choices carefully</label>
+                <label class="quiz-option"><input type="checkbox" name="q5" value="d"> Share passwords with strangers</label>
+            </fieldset>
+
+            <div class="button-row">
+                <button type="submit">Submit Quiz</button>
+                <button type="reset">Reset Quiz</button>
+            </div>
+        </form>
+
+        <section id="quiz-results" class="hidden" aria-live="polite">
+            <div id="results-summary"></div>
+            <div id="results-details" class="small-text"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Class Project Notice:</strong> This website is a class project created for IT 3203: Introduction to Web Development.</p>
+        <p>Course link: <a href="https://catalog.kennesaw.edu/preview_course_nopop.php?catoid=79&amp;coid=128159&amp;print=" target="_blank" rel="noopener noreferrer">Kennesaw State University IT 3203 Course Description</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
