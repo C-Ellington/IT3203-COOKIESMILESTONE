@@ -227,3 +227,95 @@ button[type="reset"] {
 .small-text {
     font-size: 0.95rem;
 }
+/* 
+  Milestone 3 responsive design:
+  This media query adjusts the website for tablet-sized screens.
+  It reduces spacing and makes the navigation easier to read on smaller screens.
+*/
+@media (max-width: 768px) {
+    header,
+    nav,
+    main,
+    footer {
+        width: 94%;
+    }
+
+    main {
+        padding: 18px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px 8px;
+    }
+
+    .card-row {
+        flex-direction: column;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* 
+  Milestone 3 design:
+  This media query adjusts the website for phone sized screens.
+  It stacks menu links, reduces heading size, and makes quiz controls easier to tap.
+*/
+@media (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+
+    .site-header {
+        padding: 18px 0 8px;
+    }
+
+    .site-header h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 6px 0;
+        padding: 8px;
+    }
+
+    main {
+        padding: 14px;
+    }
+
+    .quiz-form fieldset {
+        padding: 12px;
+    }
+
+    .quiz-form input[type="text"] {
+        width: 100%;
+    }
+
+    .button-row {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
