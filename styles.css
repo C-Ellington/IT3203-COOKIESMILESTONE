@@ -228,8 +228,8 @@ button[type="reset"] {
     font-size: 0.95rem;
 }
 /* 
-  Milestone 3 responsive design:
-  This media query adjusts the website for tablet-sized screens.
+  Milestone 3:
+  This media query adjusts the website for tablet sized screens.
   It reduces spacing and makes the navigation easier to read on smaller screens.
 */
 @media (max-width: 768px) {
